@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Player {
     Board board = new Board();
-    private int count = 0;
+    int count = 0;
+    int count1 = 0;
 
 
     public void addBoats(Ship ship, String[][] player) {
@@ -16,7 +17,7 @@ public class Player {
             System.out.print("Enter Cols:");
             col = board.letterToNumber(scanner.next());
             System.out.print("Enter Row: ");
-            row = scanner.nextInt() - 1;
+            row = board.numberToLetter(scanner.next());
             System.out.print("Enter direction(H/V): ");
             direction = scanner.next();
             if (direction.equals("H".toUpperCase()) || direction.equals("h".toLowerCase())) {
@@ -58,15 +59,16 @@ public class Player {
         int col;
         String fire = "🔥";
         String water = "💧";
-        while (count <= 17) {
+        while (true) {
             System.out.print("Enter Cols: ");
             col = board.letterToNumber(scanner.next());
             System.out.print("Enter Row: ");
-            row = scanner.nextInt() - 1;
+            row = board.numberToLetter(scanner.next());
             if (!player[row][col].equals("  ")) {
                 tactical[row][col] = fire;
                 Board.taticalBord(tactical);
                 count++;
+                count1++;
                 break;
             }
             if (player[row][col].equals("  ")) {
@@ -74,9 +76,7 @@ public class Player {
                 Board.taticalBord(tactical);
                 break;
             }
-            if (count == 17) {
-                System.out.println(player + " WIN!");
-            }
+
         }
 
 

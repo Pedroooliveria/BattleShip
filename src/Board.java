@@ -17,6 +17,22 @@ public class Board {
             default -> 0;
         };
     }
+    public int numberToLetter(String number) {
+
+        return switch (number) {
+            case "1" -> 0;
+            case "2" -> 1;
+            case "3" -> 2;
+            case "4" -> 3;
+            case "5" -> 4;
+            case "6" -> 5;
+            case "7" -> 6;
+            case "8" -> 7;
+            case "9" -> 8;
+            case "10" -> 9;
+            default -> 0;
+        };
+    }
 
     public static void boardPlayer(String[][] playerBoard1) {
         System.out.println();

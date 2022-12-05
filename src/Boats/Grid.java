@@ -1,8 +1,10 @@
+package Boats;
+
 public class Grid {
-    String[][] player1 = new String[10][10];
-    String[][] tactical1 = new String[10][10];
-    String[][] player2 = new String[10][10];
-    String[][] tactical2 = new String[10][10];
+    public String[][] player1 = new String[10][10];
+    public String[][] tactical1 = new String[10][10];
+    public String[][] player2 = new String[10][10];
+    public String[][] tactical2 = new String[10][10];
 
     public void check() {
         for (int i = 0; i < player1.length; i++) {

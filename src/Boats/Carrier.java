@@ -2,7 +2,7 @@ package Boats;
 
 public class Carrier extends Ship {
 
-    private String symbol = "Q";
+    private String symbol = "🛳️";
     private int size;
 
     public Carrier() {

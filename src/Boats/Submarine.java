@@ -1,7 +1,7 @@
 package Boats;
 
 public class Submarine extends Ship {
-    private String symbol = "P";
+    private String symbol = "⚓️";
     private int size;
 
     public Submarine() {

@@ -1,7 +1,7 @@
 package Boats;
 
 public class Cruiser extends Ship{
-    private String symbole = "W";
+    private String symbole = "🚤";
     private int size ;
 
     public Cruiser() {

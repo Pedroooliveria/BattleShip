@@ -2,7 +2,7 @@ package Boats;
 
 public class BattleShip extends Ship{
 
-    private String symbol = "🚢";
+    private String symbol = "x";
     private int size;
 
     public BattleShip() {

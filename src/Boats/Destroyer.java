@@ -1,7 +1,7 @@
 package Boats;
 
 public class Destroyer extends Ship {
-    private String symbol = "🛶 ";
+    private String symbol = "R";
     private int size;
 
     public Destroyer() {

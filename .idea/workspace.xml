@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94d99741-4aaa-4a52-9168-37a76060979f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Grid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Boats/BattleShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boats/BattleShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Boats/Carrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boats/Carrier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Boats/Cruiser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boats/Cruiser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Boats/Destroyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boats/Destroyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boats/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boats/Ship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Boats/Submarine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boats/Submarine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
@@ -73,11 +73,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670168130011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pelo o amor de deus">
+      <created>1670252061170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670252061170</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pelo o amor de deus" />
     <option name="LAST_COMMIT_MESSAGE" value="Pelo o amor de deus" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BattleShip$Main.ic" NAME="Main Coverage Results" MODIFIED="1670254559985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

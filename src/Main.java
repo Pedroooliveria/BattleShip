@@ -3,12 +3,14 @@ public class Main {
 
         Player newPlayer1 = new Player();
         Player newPlayer2 = new Player();
-
+        Grid array = new Grid();
 
         System.out.println("First player: ");
-        newPlayer1.check();
-        Board.boardPlayer1(newPlayer1.player1);
-        newPlayer1.setBoats1();
+        array.check();
+        Board.boardPlayer(newPlayer1.array.player1);
+        newPlayer1.setBoats(array.player1);
+        Board.boardPlayer(newPlayer2.array.player2);
+        newPlayer1.setBoats(array.player2);
         System.out.println();
         System.out.println();
         System.out.println();
@@ -18,22 +20,6 @@ public class Main {
         System.out.println();
         System.out.println();
         System.out.println();
-        newPlayer2.check();
-        System.out.println("Second player: ");
-        Board.boardPlayer2(newPlayer2.player2);
-        newPlayer2.setBoats2();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        newPlayer1.attack();
-
-
 
 
     }

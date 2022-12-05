@@ -2,24 +2,24 @@ package Boats;
 
 public class Carrier extends Ship {
 
-    private String symbole = "🛳️";
+    private String symbol = "🛳️";
     private int size;
 
     public Carrier() {
     }
 
     public Carrier(String symbole, int size) {
-        this.symbole = symbole;
+        this.symbol = symbole;
         this.size = size;
     }
 
     @Override
-    public String getSymbole() {
-        return symbole;
+    public String getSymbol() {
+        return symbol;
     }
 
-    public void getSymbole(String symbole) {
-        this.symbole = symbole;
+    public void getSymbol(String symbole) {
+        this.symbol = symbole;
     }
 
     public int getSize() {

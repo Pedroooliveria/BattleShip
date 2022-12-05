@@ -1,23 +1,23 @@
 package Boats;
 
 public class Submarine extends Ship {
-    private String symbole = "⚓️️";
+    private String symbol = "⚓️️";
     private int size;
 
     public Submarine() {
     }
 
     public Submarine(String symbole, int size) {
-        this.symbole = symbole;
+        this.symbol = symbole;
     }
 
     @Override
-    public String getSymbole() {
-        return symbole;
+    public String getSymbol() {
+        return symbol;
     }
 
-    public void setSymbole(String symbole) {
-        this.symbole = symbole;
+    public void setSymbol(String symbol) {
+        this.symbol = symbol;
     }
 
     public int getSize() {

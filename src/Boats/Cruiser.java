@@ -12,7 +12,7 @@ public class Cruiser extends Ship{
         this.size = size;
     }
 
-    public String getSymbole() {
+    public String getSymbol() {
         return symbole;
     }
 
